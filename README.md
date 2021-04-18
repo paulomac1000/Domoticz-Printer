@@ -104,14 +104,14 @@ cd /home/pi/domoticz/scripts
 Create a script that performs a cleanup request from the print queue by calling systemPrinterClearQueue.py from your home directory.
 
 ```bash
-nano  printer_clearQueue.sh
+nano printer_clearQueue.sh
 ```
 
 And paste the following content into it.
 
 ```bash
 #!/bin/bash
-python3 /home/pi/Domoticz-System-Printer/hpPrinterClearQueue.py
+python3 /home/pi/Domoticz-System-Printer/systemPrinterClearQueue.py
 ```
 
 Close the file with `ctrl+x` and save changes.
